@@ -10,7 +10,7 @@ def generate_pie_chart(labels, values):
   fig, ax = plt.subplots()
   plt.pie(values, labels=labels)
   ax.axis('equal')
-  plt.savefig('pie.png')
+  plt.savefig('chart_pie_paraverendocker.png')
   plt.close()
 
 if __name__ == '__main__':
